@@ -3,14 +3,58 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Cifrado y Decifrado de Amor</title>
+  <title>Amor Secreto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div id="root">
-    <h1>Cifrado y Decifrado de Amor</h1>
-  </div>
+  <header>
+    <section class="barraTop">
+      <div class="iconos">
+        <img src="img/facebook 3.png" alt="facebook">
+        <img src="img/gorjeo (1) 2.png" alt="twitter">
+        <img src="img/instagram (1) 4.png" alt="instagram">
+      </div>
+      <div class="logo">
+        <img src="img/letra 4.png" alt="logo">
+        <h4>Amor Secreto</h4>
+      </div>
+
+  </header>
+  <section class="usuario">
+    <div class="logoUsuario">
+      <img src="img/usuario 2 (1).png" alt="logoUsuario">
+    </div>
+    <div class="inputUsuario">
+      <label for="" class="labelUsuario">Nombre de Pila:</label>
+      <input type="text" class="nombreUsuario" id="inputSaludo">
+    </div>
+    <div>
+      <button class="buttonUsuario" id="buttonSaludo">Ingresar</button>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="root"></div>
+  <h1>Amor Secreto</h1>
+
   <input type="text" id="cifrado">
   <button id="encode">cifrar</button>
   <div id="resultadoEncode"></div>
@@ -18,7 +62,8 @@
   <input type="text" id="decifrado">
   <button id="decode">decifrar</button>
   <div id="resultadoDecode"></div>
-  
+  </div>
+
 
   <script src="index.js" type="module"></script>
 </body>
