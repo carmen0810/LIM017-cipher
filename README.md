@@ -3,9 +3,9 @@ Como bien dice el titulo esta pagina web  esta basado para poder cifrar y decifr
 
 ## Prototipo
 ![alt text](src/img/PrototipoAmor.jpg)
-![alt text](src/img/PrototipoAmor2 Opera.jpg)
+![alt text](src/img/PrototipoAmor2.jpg)
 ![alt text](src/img/PrototipoAmor-3.jpg)
-![alt text](src/img/PrototipoAmor4 .jpg)
+![alt text](src/img/PrototipoAmor4.jpg)
 
 
 
