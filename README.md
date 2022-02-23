@@ -2,7 +2,7 @@
 Como bien dice el titulo esta pagina web  esta basado para poder cifrar y decifrar frases y textos de amor.
 
 ## Prototipo
-![alt text](src\img\PrototipoAmor.jpg)
+![alt text](src/img/PrototipoAmor.jpg)
 
 
 
