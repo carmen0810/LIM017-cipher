@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Amor Secreto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <section class="barraTop">
+      <div class="iconos">
+        <img src="img/facebook 3.png" alt="facebook">
+        <img src="img/gorjeo (1) 2.png" alt="twitter">
+        <img src="img/instagram (1) 4.png" alt="instagram">
+      </div>
+      <div class="logo">
+        <img src="img/letra 4.png" alt="logo">
+        <h4>Amor Secreto</h4>
+      </div>
+    </section>
+  </header>
+
+  <section class="usuario" id="input_nombre">
+    <div class="logoUsuario">
+      <img src="img/usuario 2 (1).png" alt="logoUsuario">
+    </div>
+    <div class="inputUsuario">
+      <label for="" class="labelUsuario">Nombre de Pila:</label>
+      <input type="text" class="nombreUsuario" id="inputSaludo">
+    </div>
+    <div>
+      <button class="buttonUsuario" id="buttonSaludo">Ingresar</button>
+    </div>
+  </section>
+
+
+
+  <section id="PaginaPrincipal" class="paginaConImagen" style="display: none;">
+
+    <article id="root" class="Principal">
+      <img src="img/pexels-anh-tuan-10998828 1 (1).png" alt="mujer en lapto" width="100%">
+      <p>Escribe lo que sientes a esa persona especial y  lo
+        convertimos  en un “código secreto” que solo
+         tu sabras. ¿estas listo(a) ?</p>
+      <button class="buttonCipher" id="button-cifrar">CIFRAR</button>
+    </article>
+    <article class="Principal">
+      <img src="img/pexels-anh-tuan-10998829 1 (1).png" alt="mujer pensando" width="100%">
+      <p>Escribe el “código secreto” y descubriras que es lo 
+        que esa persona  especial 
+        te ha escrito . ¿estas listo(a) ?</p>
+      <button class="buttonCipher" id="button-decifrar">DESCIFRAR</button>
+    </article>
+  </section>
+
+  <section id="pagina-cifrado" style="display: none;">
+
+    <article class="Principal">
+      <textarea name="" id="cifrado" cols="50" rows="12" placeholder="Escribe aqui..." class="cuadro-texto"></textarea>
+      <select class="movimientos" id="movimiento-offset1">
+        <option value="0">MOVIMIENTO</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <button id="encode" class="buttonCifrar">CIFRAR</button>
+
+    </article>
+    <article class="Principal">
+      <textarea name="" id="resultadoEncode" cols="50" rows="12" class="cuadro-texto"></textarea>
+      <button class="buttonCopiar" id="button-copiar">COPIAR TEXTO</button>
+      <button class="buttonInicio"  id="button-inicio">Página de Inicio</button>
+
+    </article>
+
+  </section>
+
+  <section id="pagina-decifrado" style="display: none;">
+    <article class="Principal">
+      <textarea name="" id="decifrado" cols="50" rows="12" placeholder="Escribe aqui..."
+        class="cuadro-texto"></textarea>
+        <select class="movimientos" id="movimiento-offset">
+          <option value="0">MOVIMIENTO</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      <button id="decode" class="buttonDecifrar">DESCIFRAR</button>
+    </article>
+    <article class="Principal">
+      <textarea name="" id="resultadoDecode" cols="50" rows="12" class="cuadro-texto-Decifrado"></textarea>
+      <button class="buttonInicio2" onclick="paginaInicial2()" id="button-inicio2">Página de Inicio</button>
+    </article>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
