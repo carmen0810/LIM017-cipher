@@ -19,9 +19,10 @@
         <img src="img/letra 4.png" alt="logo">
         <h4>Amor Secreto</h4>
       </div>
-
+    </section>
   </header>
-  <section class="usuario">
+
+  <section class="usuario" id="input_nombre">
     <div class="logoUsuario">
       <img src="img/usuario 2 (1).png" alt="logoUsuario">
     </div>
@@ -36,6 +37,82 @@
 
 
 
+  <section id="PaginaPrincipal" class="paginaConImagen" style="display: none;">
+
+    <article id="root" class="Principal">
+      <img src="img/pexels-anh-tuan-10998828 1 (1).png" alt="mujer en lapto" width="100%">
+      <p>Escribe lo que sientes a esa persona especial y  lo
+        convertimos  en un “código secreto” que solo
+         tu sabras. ¿estas listo(a) ?</p>
+      <button class="buttonCipher" id="button-cifrar">CIFRAR</button>
+    </article>
+    <article class="Principal">
+      <img src="img/pexels-anh-tuan-10998829 1 (1).png" alt="mujer pensando" width="100%">
+      <p>Escribe el “código secreto” y descubriras que es lo 
+        que esa persona  especial 
+        te ha escrito . ¿estas listo(a) ?</p>
+      <button class="buttonCipher" id="button-decifrar">DECIFRAR</button>
+    </article>
+  </section>
+
+  <section id="pagina-cifrado" style="display: none;">
+
+    <article class="Principal">
+      <textarea name="" id="cifrado" cols="50" rows="12" placeholder="Escribe aqui..." class="cuadro-texto"></textarea>
+      <select class="movimientos" id="movimiento-offset1">
+        <option value="0">MOVIMIENTO</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <button id="encode" class="buttonCifrar">CIFRAR</button>
+
+    </article>
+    <article class="Principal">
+      <textarea name="" id="resultadoEncode" cols="50" rows="12" class="cuadro-texto"></textarea>
+      <button class="buttonCopiar" id="button-copiar">COPIAR TEXTO</button>
+      <button class="buttonInicio"  id="button-inicio">Página de Inicio</button>
+
+    </article>
+
+  </section>
+
+  <section id="pagina-decifrado" style="display: none;">
+    <article class="Principal">
+      <textarea name="" id="decifrado" cols="50" rows="12" placeholder="Escribe aqui..."
+        class="cuadro-texto"></textarea>
+        <select class="movimientos" id="movimiento-offset">
+          <option value="0">MOVIMIENTO</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      <button id="decode" class="buttonDecifrar">DECIFRAR</button>
+    </article>
+    <article class="Principal">
+      <textarea name="" id="resultadoDecode" cols="50" rows="12" class="cuadro-texto-Decifrado"></textarea>
+      <button class="buttonInicio2" onclick="paginaInicial2()" id="button-inicio2">Página de Inicio</button>
+    </article>
+
+
+
+
+
+  </section>
 
 
 
@@ -48,21 +125,6 @@
 
 
 
-
-
-
-
-  <div id="root"></div>
-  <h1>Amor Secreto</h1>
-
-  <input type="text" id="cifrado">
-  <button id="encode">cifrar</button>
-  <div id="resultadoEncode"></div>
-  <br>
-  <input type="text" id="decifrado">
-  <button id="decode">decifrar</button>
-  <div id="resultadoDecode"></div>
-  </div>
 
 
   <script src="index.js" type="module"></script>

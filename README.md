@@ -1,6 +1,17 @@
 ##  Amor secreto 
 Como bien dice el titulo esta pagina web  esta basado para poder cifrar y decifrar frases y textos de amor.
 
+## Prototipo
+![alt text](Lim017-cipher/img/PrototipoAmor -1 – Figma - Opera.jpg)
+
+
+
+
+
+
+
+
+
 
 
 ## Esta desarrollado para
@@ -22,10 +33,10 @@ El mensaje decifrado aparecerá en el segundo cuadro de texto.
 
 
 ## Color que deseo implementar 
-El color rojo sin duda implementare usando tambien degradados.
+El color rojo sin duda implementare usando tambien color rosado.
 
 ## Que implementare en la pagina web 
--Pantalla de inicio para que coloque su nombre/pila y le de la bienvenida
+-Pantalla de inicio para que coloque su nombre de pila y le de la bienvenida con una alerta.
 -Luego se trasladara a otra pantalla donde el usuario tiene que elegir si va "cifrar" o "decifrar" mediante un boton.
 -Dependiendo que boton eliga le va dirigir a otra pantalla sea si selecciona "Cifrar" o "decifrar"
 -En el caso si da click en el boto de "Cifrar" habra un cuadro donde pondra el texto da click en el boton "Cifrar" y al  cuadrado de al lado le saldra lo cifrado, tambien el usuario tendria la opcion de dar un click a un boton "Copiar texto" una vez ya lo haya cifrado.
